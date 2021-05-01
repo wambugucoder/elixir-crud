@@ -4,7 +4,7 @@ use Mix.Config
 config :hello, Hello.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "Josphatwambugu12",
+  password: "",
   database: "hello_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
