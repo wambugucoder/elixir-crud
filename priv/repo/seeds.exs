@@ -9,3 +9,16 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+alias Hello.Repo
+
+alias Hello.Management.Project
+
+Repo.insert! %Project{
+  title: "ABC",
+  description: "Trial app"
+}
+
+Repo.insert! %Project{
+  title: "BCD",
+  description: "Second Trial"
+}
